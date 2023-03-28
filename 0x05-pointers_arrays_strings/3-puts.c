@@ -1,14 +1,12 @@
 #include "main.h"
-
 /**
- * _puts - main function
+ * _puts - prints str
  *
- * @str: string
+ * @str: string to print
  *
  */
 
 void _puts(char *str)
-
 {
 	while (*str != '\0')
 	{
