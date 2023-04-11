@@ -49,7 +49,9 @@ int _atoi(char *s)
 
 /**
  * main - main function
+ *
  * @argc: arguments nr
+ *
  * @argv: arguments array
  *
  * Return: always 0
