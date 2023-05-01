@@ -13,11 +13,11 @@ int _sqrt_recursion(int n)
 	if (n < 0)
 		return (-1);
 
-	return (actual_sqrt_recursion(n, 0));
+	return (final_sqrt_recursion(n, 0));
 }
 
 /**
- * actual_sqrt_recursion - natural square root
+ * final_sqrt_recursion - natural square root
  *
  * @n: nr to be rooted
  *
@@ -26,14 +26,14 @@ int _sqrt_recursion(int n)
  * Return: always 0
  */
 
-int actual_sqrt_recursion(int n, int i)
+int final_sqrt_recursion(int n, int i)
 {
 	if (i * i > n)
 		return (-1);
 	if (i * i == n)
 		return (i);
 
-	return (actual_sqrt_recursion(n, i + 1));
+	return (final_sqrt_recursion(n, i + 1));
 /**
  * CC
  */
