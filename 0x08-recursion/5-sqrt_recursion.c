@@ -12,11 +12,12 @@ int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
-	
+
 	return (actual_sqrt_recursion(n, 0));
 }
 
-/** actual_sqrt_recursion - natural square root
+/**
+ * actual_sqrt_recursion - natural square root
  *
  * @n: nr to be rooted
  *
