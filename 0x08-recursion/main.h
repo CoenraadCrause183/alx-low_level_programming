@@ -17,5 +17,6 @@ int final_sqrt_recursion(int n, int i);
 int final_prime(int n, int i);
 int check_palin(char *s, int i, int leng);
 int _strlen_recursion(char *s);
+int wildcmp(char *s1, char *s2);
 
 #endif
