@@ -30,10 +30,10 @@ size_t free_listint_safe(listint_t **h)
 
 		else
 		{
-			free (*h);
+			free(*h);
 			*h = NULL;
-			leng++;;
-			break;
+			leng++;
+			break;/* CC */
 		}
 	}
 
