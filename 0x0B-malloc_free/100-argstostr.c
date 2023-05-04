@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * argstosstr - entry point
+ * argstostr - entry point
  *
  * @ac: int to insert
  *
