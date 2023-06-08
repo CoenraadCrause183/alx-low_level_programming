@@ -13,7 +13,7 @@ int _sqrt_recursion(int n)
 	if (n < 0)
 		return (-1);
 
-	return (final_sqrt_recursion(n, 0));
+	return (final_sqrt_recursion(n, 0));/*sqrt = square root*/
 }
 
 /**
@@ -21,7 +21,7 @@ int _sqrt_recursion(int n)
  *
  * @n: nr to be rooted
  *
- * @i: the iterator
+ * @i: iterator
  *
  * Return: always 0
  */
