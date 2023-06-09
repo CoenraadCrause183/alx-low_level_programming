@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
 	int str_int;
 	int sum = 0;
 
-	count = 1;
+	checknr = 1;
 	while (checknr < argc)
 	{
 		if (check_num(argv[checknr]))
