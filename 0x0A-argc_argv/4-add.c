@@ -10,24 +10,24 @@
 
 int check_num(char *str)
 {
-	unsigned int count;
+	unsigned int checknr;
 
-	count = 0;
-	while (count < strlen(str))
+	checknr = 0;
+	while (checknr < strlen(str))
 
 	{
-		if (!isdigit(str[count]))
+		if (!isdigit(str[checknr]))
 		{
 			return (0);
 		}
 
-		count++;
+		checknr++;
 	}
 	return (1);
 }
 
 /**
- * main - print the name
+ * main - print name
  *
  * @argc: arguments nr
  *
@@ -39,18 +39,18 @@ int check_num(char *str)
 int main(int argc, char *argv[])
 
 {
-	int count;
-	int str_to_int;
+	int checknr;
+	int str_int;
 	int sum = 0;
 
 	count = 1;
-	while (count < argc)
+	while (checknr < argc)
 	{
-		if (check_num(argv[count]))
+		if (check_num(argv[checknr]))
 
 		{
-			str_to_int = atoi(argv[count]);
-			sum += str_to_int;
+			str_int = atoi(argv[checknr]);
+			sum += str_int;
 		}
 
 		else
@@ -59,10 +59,10 @@ int main(int argc, char *argv[])
 			return (1);
 		}
 
-		count++;
+		checknr++;
 	}
 
 	printf("%d\n", sum);
-
+/*CC*/
 	return (0);
 }
