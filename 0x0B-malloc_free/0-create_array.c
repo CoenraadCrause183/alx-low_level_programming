@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * create_array - create array
+ * create_array - creates array
  *
  * @size: array size
  *
@@ -12,14 +12,14 @@
 
 char *create_array(unsigned int size, char c)
 {
-	char *str;
-	unsigned int i;
+	char *str1;
+	unsigned int i1;
 
-	str = malloc(sizeof(char) * size);
-	if (size == 0 || str == NULL)
+	str1 = malloc(sizeof(char) * size);
+	if (size == 0 || str1 == NULL)
 		return (NULL);
-
-	for (i = 0; i < size; i++)
-		str[i] = c;
-	return (str);
+/*CC*/
+	for (i1 = 0; i1 < size; i1++)
+		str1[i1] = c;
+	return (str1);
 }
