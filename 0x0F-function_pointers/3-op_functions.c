@@ -75,8 +75,8 @@ int op_div(int i1, int i2)
  *
  * Return: always 0
  */
-
+/*CC*/
 int op_mod(int i1, int i2)
 {
-/*CC*/	return (i1 % i2);
+	return (i1 % i2);
 }
