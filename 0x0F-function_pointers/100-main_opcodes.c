@@ -12,8 +12,8 @@
 
 int main(int argc, char *argv[])
 {
-	int size, in;
-	char *ar;
+	int size, i1;
+	char *c1;
 
 	if (argc != 2)
 	{
@@ -27,17 +27,17 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(2);
 	}
-	ar = (char *)main;
+	c1 = (char *)main;
 
-	for (in = 0; in < size; in++)
+	for (i1 = 0; i1 < size; i1++)
 	{
-		if (in == size - 1)
+		if (i1 == size - 1)
 		{
-			printf("%02hhx\n", ar[in]);
+			printf("%02hhx\n", c1[i1]);
 			break;
 		}
-		printf("%02hhx", ar[in]);
+		printf("%02hhx", c1[i1]);
 	}
-
+/*CC*/
 	return (0);
 }
