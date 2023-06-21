@@ -1,82 +1,82 @@
 #include "3-calc.h"
 
-int op_add(int a, int b);
-int op_sub(int a, int b);
-int op_mul(int a, int b);
-int op_div(int a, int b);
-int op_mod(int a, int b);
+int op_add(int i1, int i2);
+int op_sub(int i1, int i2);
+int op_mul(int i1, int i2);
+int op_div(int i1, int i2);
+int op_mod(int i1, int i2);
 
 /**
  * op_add - sum of
  *
- * @a: first nr
+ * @i1: first nr
  *
- * @b: second nr
+ * @i2: second nr
  *
  * Return: always 0
  */
 
-int op_add(int a, int b)
+int op_add(int i1, int i2)
 {
-	return (a + b);
+	return (i1 + i2);
 }
 
 /**
  * op_sub - diff of
  *
- * @a: first nr
+ * @i1: first nr
  *
- * @b: second nr
+ * @i2: second nr
  *
  * Return: always 0
  */
 
-int op_sub(int a, int b)
+int op_sub(int i1, int i2)
 {
-	return (a - b);
+	return (i1 - i2);
 }
 
 /**
  * op_mul - multiply
  *
- * @a: first nr
+ * @i1: first nr
  *
- * @b: second nr
+ * @i2: second nr
  *
  * Return: always 0
  */
 
-int op_mul(int a, int b)
+int op_mul(int i1, int i2)
 {
-	return (a * b);
+	return (i1 * i2);
 }
 
 /**
  * op_div - devide
  *
- * @a: first nr
+ * @i1: first nr
  *
- * @b: second nr
+ * @i2: second nr
  *
  * Return: always 0
  */
 
-int op_div(int a, int b)
+int op_div(int i1, int i2)
 {
-	return (a / b);
+	return (i1 / i2);
 }
 
 /**
  * op_mod - remainder of div
  *
- * @a: first nr
+ * @i1: first nr
  *
- * @b: second nr
+ * @i2: second nr
  *
  * Return: always 0
  */
 
-int op_mod(int a, int b)
+int op_mod(int i1, int i2)
 {
-	return ( a % b);
+/*CC*/	return (i1 % i2);
 }

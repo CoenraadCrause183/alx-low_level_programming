@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 
 /**
- * print_name - prints the name with pointers
+ * print_name - prints name with pointers
  *
  * @name: str to print
  *
@@ -16,5 +16,5 @@ void print_name(char *name, void (*f)(char *))
 		return;
 
 	f(name);
-/* CC */
+/*CC*/
 }

@@ -4,22 +4,24 @@
 #include <stdio.h>
 
 /**
- * struct op - Struct op
+ * struct op - struct op
  *
- * @op: The operator
- * @f: The function associated
+ * @opp: operator
+ *
+ * @f: the function
  */
-typedef struct op
+
+typedef struct opp
 {
-    char *op;
+    char *opp;
     int (*f)(int a, int b);
 } op_t;
 
-int op_add(int a, int b);
-int op_sub(int a, int b);
-int op_mul(int a, int b);
-int op_div(int a, int b);
-int op_mod(int a, int b);
+int op_add(int i1, int i2);
+int op_sub(int i1, int i2);
+int op_mul(int i1, int i2);
+int op_div(int i1, int i2);
+int op_mod(int i1, int i2);
 int (*get_op_func(char *s))(int, int);
 
 #endif
