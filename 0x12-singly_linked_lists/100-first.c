@@ -6,7 +6,7 @@
  *
  * Return: always 0
  */
-
+/*CC*/
 void first(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
