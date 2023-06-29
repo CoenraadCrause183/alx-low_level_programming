@@ -10,13 +10,13 @@
 
 size_t list_len(const list_t *h)
 {
-	size_t si = 0;
+	size_t s1 = 0;
 
 	while (h)
 	{
-		si++;
+		s1++;
 		h = h->next;
 	}
-
-	return (si);
+/*CC*/
+	return (s1);
 }
