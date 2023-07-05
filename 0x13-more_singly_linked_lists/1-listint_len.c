@@ -10,13 +10,13 @@
 
 size_t listint_len(const listint_t *h)
 {
-	size_t nr = 0;
+	size_t nr1 = 0;
 
 	while (h)
 	{
-		nr++;
+		nr1++;
 		h = h->next;
 	}
-
-	return (nr);
+/*CC*/
+	return (nr1);
 }

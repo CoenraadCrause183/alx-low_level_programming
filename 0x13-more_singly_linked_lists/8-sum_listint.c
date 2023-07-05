@@ -10,14 +10,14 @@
 
 int sum_listint(listint_t *head)
 {
-	int i = 0;
-	listint_t *lst = head;
+	int i1 = 0;
+	listint_t *lst1 = head;
 
-	while (lst)
+	while (lst1)
 	{
-		i += lst->n;
-		lst = lst->next;
+		i1 += lst1->n;
+		lst1 = lst1->next;
 	}
-
-	return (i);
+/*CC*/
+	return (i1);
 }
